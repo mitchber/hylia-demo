@@ -18,6 +18,10 @@ sections:
   match: "*.md"
   templates:
   - post
+- type: document
+  path: src/index.md
+  label: index
+  match: "**/*"
 - type: heading
   label: Globals
 - type: document
