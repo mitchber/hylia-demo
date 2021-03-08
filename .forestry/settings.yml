@@ -10,7 +10,7 @@ sections:
   path: src/pages
   label: Pages
   create: all
-  match: "*.md"
+  match: "**/*"
 - type: directory
   path: src/posts
   label: Posts
